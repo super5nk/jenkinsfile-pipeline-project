@@ -12,8 +12,7 @@ pipeline {
             steps {
                 echo 'deneme'
                 sh 'ls'
-                sh 'pwd'
-                sh '''
+
                 whoami
                 touch deneme.txt
                 '''
